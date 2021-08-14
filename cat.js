@@ -14,6 +14,9 @@ cat.prototype.eat = function(animal) {
 
 cat.prototype.sleep = function() {
 	console.log('sleeping')
+
+cat.prototype.swim = function() {
+	console.log('swimming')
 }
 
 module.exports = cat
